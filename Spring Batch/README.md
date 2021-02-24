@@ -27,3 +27,7 @@ Como o Alonso pode corrigir os problemas do seu projeto? Escreva a solução de 
 04) @Bean na classe imprimeOlaJob
 
 05) O método imprimeOlaJob deve ser public
+
+## Persistência dos metadados
+
+01) Configuração do mysql no docker e no projeto 1
