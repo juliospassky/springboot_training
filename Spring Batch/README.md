@@ -9,7 +9,7 @@ Por que o projeto do Alonso não funciona? Liste os problemas encontrados.
 
 Como o Alonso pode corrigir os problemas do seu projeto? Escreva a solução de cada problema encontrado.
 
-## Fixes
+### Fixes
 
 01) Adição do H2 no pom
 ```pom
@@ -28,6 +28,14 @@ Como o Alonso pode corrigir os problemas do seu projeto? Escreva a solução de 
 
 05) O método imprimeOlaJob deve ser public
 
-## Persistência dos metadados
+### Persistência dos metadados
 
 01) Configuração do mysql no docker e no projeto 1
+
+## Segundo exercício
+
+Como o Alonso pode corrigir os problemas do seu projeto? Escreva a solução de cada problema encontrado.
+
+1) Adicionar H2 e configuração
+
+2) Correção de pacotes, anotações e parâmetros
