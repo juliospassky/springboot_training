@@ -1,0 +1,194 @@
+{
+    "status": {
+        "value": "0",
+        "description": "Requisição efetuada com sucesso."
+    },
+    "data": {
+        "tracking_id": "601d54dc51d1fbadf02775e6",
+        "flow_type": "rent_delivery",
+        "flow_type_description": "Aluguel",
+        "order_date": "2021-02-05T13:41:56.913Z",
+        "identifier": {
+            "order_id": "601d4b24d62257739133b508",
+            "order_number": "KKSC856908"
+        },
+        "situation": {
+            "status": "processing",
+            "description": "Em processamento",
+            "status_update_date": "2021-02-05T14:23:24.488Z"
+        },
+        "merchant": {
+            "merchant_id": "601d4b22473da95bf475e4e6",
+            "acquirer_code": "getnet",
+            "acquirer_merchant_code": "52684709",
+            "merchant_legal_data": {
+                "person": {
+                    "legal_document_number": "98881698820",
+                    "fiscal_type": "natural_person",
+                    "name": "MOCK DE OLIVEIRA SANTOS",
+                    "email": "rafael11011983mf@gmail.com"
+                }
+            }
+        },
+        "items": [
+            {
+                "item_sequence_number": 1,
+                "identifier": {
+                    "order_number": "KKSC856908",
+                    "service_number": "12313200"
+                },
+                "situation": {
+                    "status": "pending",
+                    "description": "Pendente"
+                },
+                "products": [
+                    {
+                        "product_type": "terminal",
+                        "product_id": "320bbf16a32d48c285a3a9b79ed68797",
+                        "name": "POS Digital",
+                        "description": "Terminal sem fio com sistema operacional Android, com conectividade 4G e Wi-fi ",
+                        "icon_url": "https://site.getnet.com.br/wp-content/uploads/2019/07/cred_digital_pos_digital.png",
+                        "pricing_model": {
+                            "pricing_type": "monthly_rent"
+                        },
+                        "delivery_method": "technical_support_visit",
+                        "quantity": 1,
+                        "order_item_sequence_number": 1,
+                        "unit_price": 9990,
+                        "total_price": 9990,
+                        "terminal_type": "digital",
+                        "transaction_channel_type": "pos",
+                        "image_urls": []
+                    }
+                ],
+                "latest_event": {
+                    "name": "delivery_failure",
+                    "description": "Insucesso",
+                    "update_date_time": "2021-04-05T14:38:00Z",
+                    "additional_data": {}
+                },
+                "delivery_info": {
+                    "delivery_forecast": "2021-02-10T12:00:00Z"
+                },
+                "steps": [
+                    {
+                        "name": "order",
+                        "description": "Pedido",
+                        "situation": {
+                            "status": "finished",
+                            "status_update_date": "2021-02-05T14:23:25.923Z"
+                        },
+                        "events": []
+                    },
+                    {
+                        "name": "fulfillment",
+                        "description": "Preparo",
+                        "situation": {
+                            "status": "finished",
+                            "status_update_date": "2021-04-05T14:38:00Z"
+                        },
+                        "events": []
+                    },
+                    {
+                        "name": "delivery",
+                        "description": "Entrega",
+                        "situation": {
+                            "status": "processing",
+                            "status_update_date": "2021-04-05T14:38:00Z"
+                        },
+                        "events": []
+                    },
+                    {
+                        "name": "finish",
+                        "description": "Finalização",
+                        "situation": {
+                            "status": "pending"
+                        },
+                        "events": []
+                    }
+                ],
+                "events": [
+                    {
+                        "name": "delivery_failure",
+                        "description": "Insucesso na entrega",
+                        "step_name": "delivery",
+                        "update_date_time": "2021-04-05T14:38:00Z",
+                        "additional_data": {
+                            "description": "Primeira tentativa ausente",
+                            "url_img": [
+                                "https://api-hti.getnet.com.br:8443/v1/internal/tracking/evidence-image/601d7003cf99037cf91c4df4"
+                            ]
+                        },
+                        "subevents": []
+                    },
+                    {
+                        "name": "delivery_failure",
+                        "description": "Insucesso na entrega",
+                        "step_name": "delivery",
+                        "update_date_time": "2021-04-05T14:38:00Z",
+                        "additional_data": {
+                            "description": "Segunda tentativa ausente"
+                        },
+                        "subevents": []
+                    },
+                    {
+                        "name": "delivery_failure",
+                        "description": "Insucesso na entrega",
+                        "step_name": "delivery",
+                        "update_date_time": "2021-04-05T14:38:00Z",
+                        "additional_data": {
+                            "description": "Terceira tentativa ausente"
+                        },
+                        "subevents": []
+                    },
+                    {
+                        "name": "order_approved",
+                        "description": "Pedido confirmado",
+                        "step_name": "order",
+                        "update_date_time": "2021-02-05T14:23:25.923Z",
+                        "subevents": []
+                    },
+                    {
+                        "name": "order_submitted",
+                        "description": "Pedido recebido",
+                        "step_name": "order",
+                        "update_date_time": "2021-02-05T14:23:24.286Z",
+                        "subevents": []
+                    }
+                ]
+            }
+        ],
+        "delivery_info": {
+            "recommended_delivery_period": "morning",
+            "delivery_address": {
+                "street": "AVENIDA RIO BRANCO",
+                "number": "0",
+                "district": "CENTRO",
+                "city": "RIO DE JANEIRO",
+                "state": "RJ",
+                "country": "BR",
+                "postal_code": "20090000"
+            },
+            "delivery_type": "normal",
+            "delivery_time": 7,
+            "delivery_amount": 0,
+            "delivery_forecast": "2021-02-10T12:00:00Z"
+        },
+        "payment_info": {
+            "total_price": 9990,
+            "currency": "BRL",
+            "awaiting_payment": false
+        },
+        "audit_information": {
+            "creation_date": "2021-02-05T14:23:24.488Z",
+            "update_date": "2021-02-05T16:19:15.174Z",
+            "channel_data": {
+                "channel": "getnet_ecommerce",
+                "branch": "",
+                "login": "",
+                "name": "",
+                "enrollment_number": ""
+            }
+        }
+    }
+}
