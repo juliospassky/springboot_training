@@ -5,7 +5,7 @@ services:
     image: mysql:8
     environment:
       - MYSQL_ROOT_PASSWORD=123456
-      - MYSQL_DATABASE=bank
+      - MYSQL_DATABASE=bank,spring_batch
       - MYSQL_USER=user
       - MYSQL_PASSWORD=123456
     volumes:
